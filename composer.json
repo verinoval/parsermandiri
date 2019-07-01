@@ -1,0 +1,23 @@
+{
+    "name": "verinoval/mutasimandiri",
+    "description": "Scrapper untuk data mutasi bank di Indonesia",
+    "type": "library",
+    "keywords": [ "php", "mutasi", "bank" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Suwandi",
+            "email": "davidsuwandi@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MutasiMandiri\\":"src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.2"
+    },
+	"minimum-stability": "dev"
+}
